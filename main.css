@@ -1,0 +1,810 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    height: 100vh;
+    background-color: #2b4162;
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+    justify-content: center;
+    align-items: center;
+} 
+
+body:hover {
+    background: radial-gradient(50px circle at 100px 100px,
+            #FFFFFF 50%,
+            transparent 51%),
+        radial-gradient(75px circle at 300px 400px,
+            #FD0000 50%,
+            transparent 51%),
+        radial-gradient(100px circle at 400px 20px,
+            #000000 50%,
+            transparent 51%),
+        radial-gradient(25px circle at 500px 250px,
+            #A23B72 50%,
+            transparent 51%),
+        radial-gradient(200px circle at 250px 200px,
+            #00B1FF 50%,
+            transparent 50.4%),
+        radial-gradient(10px circle at 50px 420px,
+            #0079FF 50%,
+            transparent 51%);
+    background-color: #000000;
+}
+
+main {
+    display: flex;
+    padding: 10px 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 75%;
+    gap: 2%;
+    padding: 40px;
+    border-radius: 30px;
+    background-color: #4d4855;
+    background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.7s;
+}
+
+.cont1:hover {
+    background: radial-gradient(50px circle at 100px 100px,
+                #FFFFFF 50%,
+                transparent 51%),
+            radial-gradient(75px circle at 300px 400px,
+                #FD0000 50%,
+                transparent 51%),
+            radial-gradient(100px circle at 400px 20px,
+                #000000 50%,
+                transparent 51%),
+            radial-gradient(25px circle at 500px 250px,
+                #A23B72 50%,
+                transparent 51%),
+            radial-gradient(200px circle at 250px 200px,
+                #00B1FF 50%,
+                transparent 50.4%),
+            radial-gradient(10px circle at 50px 420px,
+                #0079FF 50%,
+                transparent 51%);
+}
+
+
+.left-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slackimg {
+    display: flex;
+    width: auto;
+    max-width: 100%;
+}
+
+.right-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.profilecard {
+    display: flex;
+}
+
+.profile {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+}
+
+b {
+    color: gold;
+}
+
+
+.goals {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+}
+
+.prof-links {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 15px 120px;
+    justify-content: center;
+}
+
+.footnav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: #2b4162;
+        background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+        justify-content: center;
+        align-items: center;
+    }
+
+    body:hover {
+        background: radial-gradient(50px circle at 100px 100px,
+                #FFFFFF 50%,
+                transparent 51%),
+            radial-gradient(75px circle at 300px 400px,
+                #FD0000 50%,
+                transparent 51%),
+            radial-gradient(100px circle at 400px 20px,
+                #000000 50%,
+                transparent 51%),
+            radial-gradient(25px circle at 500px 250px,
+                #A23B72 50%,
+                transparent 51%),
+            radial-gradient(200px circle at 250px 200px,
+                #00B1FF 50%,
+                transparent 50.4%),
+            radial-gradient(10px circle at 50px 420px,
+                #0079FF 50%,
+                transparent 51%);
+        background-color: #000000;
+    }
+
+    main {
+        display: flex;
+        padding: 10px 200px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cont1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        max-width: 100%;
+        gap: 2%;
+        padding: 40px;
+        border-radius: 30px;
+        background-color: #4d4855;
+        background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: 0.7s;
+    }
+
+    .cont1:hover {
+        background: radial-gradient(50px circle at 100px 100px,
+                #FFFFFF 50%,
+                transparent 51%),
+            radial-gradient(75px circle at 300px 400px,
+                #FD0000 50%,
+                transparent 51%),
+            radial-gradient(100px circle at 400px 20px,
+                #000000 50%,
+                transparent 51%),
+            radial-gradient(25px circle at 500px 250px,
+                #A23B72 50%,
+                transparent 51%),
+            radial-gradient(200px circle at 250px 200px,
+                #00B1FF 50%,
+                transparent 50.4%),
+            radial-gradient(10px circle at 50px 420px,
+                #0079FF 50%,
+                transparent 51%);
+    }
+
+
+    .left-grid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .profilecard {
+        display: flex;
+    }
+
+    .profile {
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    b {
+        color: gold;
+    }
+
+
+    .goals {
+        color: white;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6rem;
+    }
+
+    .prof-links {
+        display: flex;
+        justify-content: right;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+
+    footer {
+        display: flex;
+        width: 100%;
+        padding: 15px 120px;
+        justify-content: center;
+    }
+
+    .footnav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0;
+            height: 100vh;
+            background-color: #2b4162;
+            background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+            justify-content: center;
+            align-items: center;
+        }
+    
+        body:hover {
+            background: radial-gradient(50px circle at 100px 100px,
+                    #FFFFFF 50%,
+                    transparent 51%),
+                radial-gradient(75px circle at 300px 400px,
+                    #FD0000 50%,
+                    transparent 51%),
+                radial-gradient(100px circle at 400px 20px,
+                    #000000 50%,
+                    transparent 51%),
+                radial-gradient(25px circle at 500px 250px,
+                    #A23B72 50%,
+                    transparent 51%),
+                radial-gradient(200px circle at 250px 200px,
+                    #00B1FF 50%,
+                    transparent 50.4%),
+                radial-gradient(10px circle at 50px 420px,
+                    #0079FF 50%,
+                    transparent 51%);
+            background-color: #000000;
+        }
+    
+        main {
+            display: flex;
+            padding: 10px 200px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: flex-start;
+            max-width: 100%;
+            gap: 2%;
+            padding: 40px;
+            border-radius: 30px;
+            background-color: transparent;
+            background-image: none;
+            transition: 0.7s;
+        }
+    
+        .cont1:hover {
+            background-color: transparent;
+            background-image: none;
+        }
+    
+    
+        .left-grid {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+        }
+    
+        .slackimg {
+            display: flex;
+            width: auto;
+            max-width: 100%;
+        }
+    
+        .right-grid {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .profilecard {
+            display: flex;
+        }
+    
+        .profile {
+            font-size: 14px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: aliceblue;
+        }
+    
+        b {
+            color: gold;
+        }
+    
+    
+        .goals {
+            color: white;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+        }
+    
+        .prof-links {
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+            gap: 10px;
+        }
+    
+    
+        footer {
+            display: flex;
+            width: 100%;
+            padding: 15px 120px;
+            justify-content: center;
+        }
+    
+        .footnav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: gold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+}
+
+@media screen and (max-width: 834px) {
+    body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0;
+            height: 100vh;
+            background-color: #2b4162;
+            background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+            justify-content: center;
+            align-items: center;
+        }
+    
+        body:hover {
+            background: radial-gradient(50px circle at 100px 100px,
+                    #FFFFFF 50%,
+                    transparent 51%),
+                radial-gradient(75px circle at 300px 400px,
+                    #FD0000 50%,
+                    transparent 51%),
+                radial-gradient(100px circle at 400px 20px,
+                    #000000 50%,
+                    transparent 51%),
+                radial-gradient(25px circle at 500px 250px,
+                    #A23B72 50%,
+                    transparent 51%),
+                radial-gradient(200px circle at 250px 200px,
+                    #00B1FF 50%,
+                    transparent 50.4%),
+                radial-gradient(10px circle at 50px 420px,
+                    #0079FF 50%,
+                    transparent 51%);
+            background-color: #000000;
+        }
+    
+        main {
+            display: flex;
+            padding: 10px 130px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: flex-start;
+            max-width: 100%;
+            gap: 2%;
+            padding: 40px;
+            border-radius: 30px;
+            background-color: transparent;
+            background-image: none;
+            transition: 0.7s;
+        }
+    
+        .cont1:hover {
+            background-color: transparent;
+            background-image: none;
+        }
+    
+    
+        .left-grid {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+        }
+    
+        .slackimg {
+            display: flex;
+            width: auto;
+            max-width: 100%;
+        }
+    
+        .right-grid {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .profilecard {
+            display: flex;
+        }
+    
+        .profile {
+            font-size: 14px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: aliceblue;
+        }
+    
+        b {
+            color: gold;
+        }
+    
+    
+        .goals {
+            color: white;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+        }
+    
+        .prof-links {
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+            gap: 10px;
+        }
+    
+    
+        footer {
+            display: flex;
+            width: 100%;
+            padding: 15px 120px;
+            justify-content: center;
+        }
+    
+        .footnav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: gold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin: 0;
+            height: 100vh;
+            background-color: #2b4162;
+            background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+            justify-content: center;
+            align-items: center;
+        }
+    
+        body:hover {
+            background: radial-gradient(50px circle at 100px 100px,
+                    #FFFFFF 50%,
+                    transparent 51%),
+                radial-gradient(75px circle at 300px 400px,
+                    #FD0000 50%,
+                    transparent 51%),
+                radial-gradient(100px circle at 400px 20px,
+                    #000000 50%,
+                    transparent 51%),
+                radial-gradient(25px circle at 500px 250px,
+                    #A23B72 50%,
+                    transparent 51%),
+                radial-gradient(200px circle at 250px 200px,
+                    #00B1FF 50%,
+                    transparent 50.4%),
+                radial-gradient(10px circle at 50px 420px,
+                    #0079FF 50%,
+                    transparent 51%);
+            background-color: #000000;
+        }
+    
+        main {
+            display: flex;
+            padding: 10px 120px;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .cont1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            align-items: flex-start;
+            max-width: 100%;
+            gap: 2%;
+            padding: 20px;
+            border-radius: 30px;
+            background-color: #4d4855;
+            background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: 0.7s;
+        }
+    
+        .cont1:hover {
+            background-color: transparent;
+            background-image: none;
+        }
+    
+    
+        .left-grid {
+            display: flex;
+            justify-content: left;
+            align-items: flex-start;
+        }
+    
+        .slackimg {
+            display: flex;
+            width: auto;
+            max-width: 100%;
+        }
+    
+        .right-grid {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .profilecard {
+            display: flex;
+        }
+    
+        .profile {
+            font-size: 14px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: aliceblue;
+        }
+    
+        b {
+            color: gold;
+        }
+    
+    
+        .goals {
+            color: white;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6rem;
+        }
+    
+        .prof-links {
+            display: flex;
+            justify-content: right;
+            align-items: flex-end;
+            gap: 10px;
+        }
+    
+    
+        footer {
+            display: flex;
+            width: 100%;
+            padding: 15px 120px;
+            justify-content: center;
+        }
+    
+        .footnav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: gold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+}
+
+@media screen and (max-width: 480px) {
+body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        height: 100vh;
+        background-color: #2b4162;
+        background: radial-gradient(50px circle at 100px 100px,
+                    #FFFFFF 50%,
+                    transparent 51%),
+                radial-gradient(75px circle at 300px 400px,
+                    #FD0000 50%,
+                    transparent 51%),
+                radial-gradient(100px circle at 400px 20px,
+                    #000000 50%,
+                    transparent 51%),
+                radial-gradient(25px circle at 500px 250px,
+                    #A23B72 50%,
+                    transparent 51%),
+                radial-gradient(200px circle at 250px 200px,
+                    #00B1FF 50%,
+                    transparent 50.4%),
+                radial-gradient(10px circle at 50px 420px,
+                    #0079FF 50%,
+                    transparent 51%);
+            background-color: #000000;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body:hover {
+        background-color: #000000;
+    }
+
+
+    main {
+        display: flex;
+        padding: 10px 20px;
+        width: 100%;
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    .cont1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+        max-width: 100%;
+        gap: 2%;
+        padding: 20px;
+        border-radius: 30px;
+        background-color: transparent;
+        background-image: none;
+        transition: 0.7s;
+    }
+
+    .cont1:hover{
+        background-color: transparent;
+        background-image: none;
+    }
+
+
+
+    .left-grid {
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .slackimg {
+        display: flex;
+        width: auto;
+        max-width: 100%;
+    }
+
+    .right-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profilecard {
+        display: flex;
+    }
+
+    .profile {
+        font-size: 14px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aliceblue;
+    }
+
+    b {
+        color: gold;
+    }
+
+
+    .goals {
+        color: white;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.6rem;
+    }
+
+    .prof-links {
+        display: flex;
+        justify-content: left;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+
+    footer {
+        display: flex;
+        width: 100%;
+        padding: 15px 20px;
+        justify-content: center;
+    }
+
+    .footnav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: gold;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+}
