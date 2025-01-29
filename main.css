@@ -305,37 +305,34 @@ body {
             width: 100%;
             margin: 0;
             height: 100vh;
-            background-color: #2b4162;
-            background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
+            background-color: #000000;
+            background: radial-gradient(50px circle at 100px 100px,
+                        #FFFFFF 50%,
+                        transparent 51%),
+                    radial-gradient(75px circle at 300px 400px,
+                        #FD0000 50%,
+                        transparent 51%),
+                    radial-gradient(100px circle at 400px 20px,
+                        #000000 50%,
+                        transparent 51%),
+                    radial-gradient(25px circle at 500px 250px,
+                        #A23B72 50%,
+                        transparent 51%),
+                    radial-gradient(200px circle at 250px 200px,
+                        #00B1FF 50%,
+                        transparent 50.4%),
+                    radial-gradient(10px circle at 50px 420px,
+                        #0079FF 50%,
+                        transparent 51%);
             justify-content: center;
             align-items: center;
         }
     
-        body:hover {
-            background: radial-gradient(50px circle at 100px 100px,
-                    #FFFFFF 50%,
-                    transparent 51%),
-                radial-gradient(75px circle at 300px 400px,
-                    #FD0000 50%,
-                    transparent 51%),
-                radial-gradient(100px circle at 400px 20px,
-                    #000000 50%,
-                    transparent 51%),
-                radial-gradient(25px circle at 500px 250px,
-                    #A23B72 50%,
-                    transparent 51%),
-                radial-gradient(200px circle at 250px 200px,
-                    #00B1FF 50%,
-                    transparent 50.4%),
-                radial-gradient(10px circle at 50px 420px,
-                    #0079FF 50%,
-                    transparent 51%);
-            background-color: #000000;
-        }
     
         main {
             display: flex;
-            padding: 10px 200px;
+            padding: 0px 200px;
+            margin-top: 150px;
             width: 100%;
             justify-content: center;
             align-items: center;
@@ -720,8 +717,7 @@ body {
         display: flex;
         padding: 10px 20px;
         width: 100%;
-        /* justify-content: center;
-        align-items: center; */
+        margin-top: 280px;
     }
 
     .cont1 {
